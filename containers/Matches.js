@@ -31,7 +31,7 @@ const Matches = () => {
           </View>
 
           <FlatList
-            numColumns={2}
+            numColumns={3}
             data={Demo}
             keyExtractor={(item, index) => index.toString()}
             renderItem={({ item }) => (
